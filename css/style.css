@@ -1,0 +1,199 @@
+@import "bass/stylesheet.css";
+
+body{
+    background-color: #FEE715;
+}
+*{
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Basically A Sans Serif', sans-serif;
+
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #101820;
+    color: #FEE715;
+    padding: 30px;
+}
+
+fieldset {
+    box-shadow: 3px 3px 6px 6px rgba(red, green, blue, alpha);
+    border: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.inputform {
+    width: 100%;
+    padding: 8px 4px;
+}
+
+.form-card{
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 8px 0 rgba(0,0,0,0 .4);
+    transition: 0.3s;
+    background-color: #101820;
+    color: #FEE715;
+    height: 400px;
+    width: 500px;
+    transition: 0.3s;
+}
+
+#form1{
+    display: flex;
+    padding: 2px 16px;
+    flex-grow: 4;
+    flex-direction: row;
+}
+
+.card {
+    box-shadow: 8px 8px 8px 0 rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    transition: 0.3s;
+    height: 150px;
+    width: 500px;
+    transition: 0.3s;
+}
+
+.container{
+    padding: 2px 16px;
+    position: relative;
+    /* top: 0vh; */
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 14px;
+    background-color: #101820;
+    color: #FEE715;
+    height: 150px;
+    width: 500px;
+}
+
+
+.buttonsubmit {
+    background-color: #FEE715;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 33%;
+  }
+  
+.buttonsubmit {
+    background-color: #FEE715; 
+    color: black; 
+    border: 2px solid #101820;
+}
+  
+.buttonsubmit:hover {
+    background-color: #101820;
+    color: #FEE715;
+    border: 2px solid #FEE715;
+}
+
+#result {
+    margin-top: 30px;
+}
+
+#menu-text {
+    box-shadow: 8px 8px rgba(0,0,0,0 .4);
+    width: 40%;
+    border-radius: 5px;
+
+}
+
+.container-text {
+    padding: 16px 32px;    
+    background-color: #101820;
+    color: #FEE715;
+    margin-top: 30px;    
+    padding: 50px 20px;
+}
+
+.container-text2 {
+    padding: 16px 32px;    
+    background-color: #101820;
+    color: #FEE715;
+    margin-top: 30px;    
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#disclaimer { 
+    background-color: #101820;
+    color: #FEE715;  
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonConsult{
+    background-color: #FEE715;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 33%;
+}
+
+.buttonConsult {
+    background-color: #FEE715; 
+    color: black; 
+    border: 2px solid #101820;
+}
+  
+.buttonConsult:hover{
+    background-color: #101820;
+    color: #FEE715;
+    border: 2px solid #FEE715;
+}
+
+.Registration{
+    background-color: #FEE715;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 33%;
+}
+
+.Registration {
+    background-color: #FEE715; 
+    color: black; 
+    border: 2px solid #101820;
+}
+  
+.Registration:hover{
+    background-color: #101820;
+    color: #FEE715;
+    border: 2px solid #FEE715;
+}
+
+#addons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+}

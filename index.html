@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Kalkulator</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <div id="navbar">
+        <h1>BMI Kalkulator</h1>
+    </div>     
+        <br>
+
+        <div class="menu-text">
+            <div class="container-text">
+                <h1>Welcome!</h1>
+                <p>Selamat Datang di kalkulator BMI disini anda dapat mengetahui bagaimana index massa tubuh anda. 
+                    Anda hanya perlu memasukkan berat badan dan tinggi Anda, lalu tekan tombol 'Hitung'. Setelah itu, hasil BMI Anda akan ditampilkan beserta status kesehatan berdasarkan rentang BMI yang telah ditentukan. Mari kita periksa apakah Anda memiliki berat badan ideal atau mungkin perlu mengambil tindakan untuk menjaga kesehatan Anda dengan lebih baik!
+                </p>
+            </div>
+        </div>
+                   
+        <br>
+
+        <div class="form-card">
+            <form action="" id="form1">
+                <fieldset>
+                    <b>Jenis Kelamin</b>
+                    <br>
+                    <label for="male">Pria
+                        <input type="radio" name="gender" value="male" required>
+                    </label>
+                    <label for="female">Wanita
+                        <input type="radio" name="gender" value="female" required>
+                    </label>
+                        <br>
+                    <b>Berat Badan (KG)</b>
+                    <input type="number" name="weight" id="weight" class="inputform" placeholder="Silahkan Tulis Berat Badan Anda" required>
+
+                    <b>Usia</b>
+                    <input type="number" name="age" id="age" class="inputform" placeholder="Silahkan Tulis Usia Anda">
+
+                    <b>Tinggi Badan (M)</b>
+                    <input type="text" name="height" id="height" class="inputform" placeholder="SIlahkan Tulis Tinggi Badan Anda" required>
+
+                    <button type="submit" class="buttonsubmit">Hitung BMI</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <h5>Hasil Kalkulasi</h5>
+                <h1 id="result"></h1>
+                <p id="statusBmi"></p>
+            </div>
+        </div>
+
+        <div class="menu-text">
+            <div class="container-text">
+                <h5 style="text-align: center;">Hasil Evaluasi</h5>
+                <h2 id="avg-res"></h2>
+                <p id="explanation"></p>
+            </div>
+            <div class="container-text2">
+                <h2>Disclaimer</h2>
+                <p>Penting untuk dicatat bahwa kalkulator BMI ini hanya sebagai referensi umum. Sebaiknya berkonsultasilah dengan dokter atau ahli kesehatan untuk penilaian medis yang lebih komprehensif.</p>
+            </div>
+            <div id="Disclaimer" style="padding: 1rem;">
+                <h3 style="text-align: center;">Penyakit yang berasal dari kegemukan</h3>
+                <p style="text-align: center;">Diabetes</p>
+                <p style="text-align: center;">Hipertensi</p>
+                <p style="text-align: center;">Sakit Jantung</p>
+                <p style="text-align: center;">Osteoarthritis</p>
+                    <div id="Addons">
+                        <button class="buttonConsult" style="margin: 0;">Konsultasi Ke Dokter</button>
+                        <button class="Registration" style="margin: 0;">Registrasi Online</button>
+                    </div>
+                    
+            </div>
+        </div>
+
+        <footer>
+            <h5 style="text-align: center; padding: 1rem;">
+                &copy; 2023 - R.K 
+            </h5>
+        </footer>
+        <script src="js/script.js"></script>
+        <script>
+                // Preventing site refresh after Form Submission
+                //test Comment
+            form1.addEventListener('submit', function (e) {
+                e.preventDefault();
+                bmiCalc(this);
+            });
+        </script>
+</body>
+</html>
